@@ -5,8 +5,17 @@
 .flex {
     display: flex;
     flex-direction: row;
-    padding: 3rem .2rem;
+    align-items: flex-start;
 }
+.flex .left {
+    padding: 4rem .1rem;
+}
+
+.flex .right {
+    padding: 4rem .5rem;
+}
+
+
 .event-img {
     width: 520px;
     margin-left: 80px;

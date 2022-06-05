@@ -13,7 +13,7 @@ const Events = () => {
                 <div className='event-content'>
                     <h4>Everest Camp Trek</h4>
                     <p>Fuerat aestu carentem habentia spectent tonitrua mutastis 
-                    <br/>locavit liberioris inistra possedit.
+                    locavit liberioris inistra possedit.
                     </p>
                     <Link to='/projects' className='btn btn-event'>
                         Learn More
@@ -26,7 +26,7 @@ const Events = () => {
                 <div className='event-content'>
                     <h4>Walking Holidays</h4>
                     <p>Fuerat aestu carentem habentia spectent tonitrua mutastis 
-                    <br/>locavit liberioris inistra possedit.
+                    locavit liberioris inistra possedit.
                     </p>
                     <Link to='/projects' className='btn btn-event'>
                         Learn More
