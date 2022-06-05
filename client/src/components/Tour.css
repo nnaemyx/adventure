@@ -1,0 +1,74 @@
+.tour {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 13rem 2rem 14rem;
+}
+
+.btn-tour {
+    color: white;
+}
+
+.text h1 {
+    color:black;
+    font-size: 2rem;
+    text-align: left;
+}
+.text p {
+    color:black;
+    font-size: 1rem;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -85px;
+    margin-top: 70px;
+}
+
+.tour-image {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+@media screen and (max-width:544px) {
+    .tour {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .text {
+        flex-wrap: wrap;
+        padding: auto;
+        margin-top: -149px;
+    }
+    .text h1 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .text p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+ 
+    .images {
+        flex-wrap: wrap;
+        margin-top: -7rem;
+        justify-content: center;
+    }
+
+    .tour-image {
+        padding-right: 2rem;
+        padding-left: -2rem;
+        padding-top: -1rem;
+        margin-right: -1px;
+        margin-left: 159px;
+    }
+
+}

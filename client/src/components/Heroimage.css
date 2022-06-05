@@ -15,11 +15,21 @@
     opacity: 0.7;
 }
 
-
-
-.content {
-    font-family: 'Ubuntu', sans-serif;
+.hr1 {
+    border: 0;
+    width: 30%;
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 4px;
+    margin-bottom: 1.75rem;
+    margin-top: 2.5rem;
+    margin-left: 209px;
 }
+
+
+
 
 .hero-img {
     width: 100%;
@@ -29,7 +39,9 @@
     object-fit: cover;
 }
 
-
+.content .btn {
+    color: white;
+}
 
 
 .hero {
@@ -48,6 +60,7 @@
 .hero .content h1{
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
+    text-align: center;
 }
 
 .hero .content p{
@@ -56,14 +69,7 @@
     text-transform: uppercase;
 }
 
-.border {
-    border-bottom-style: solid;
-    border-color: white;
-    width: 120px;
-    margin-left: 230px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+
 
 
 
@@ -76,10 +82,8 @@
         font-size: 1rem;
     }
 
-    .border {
-        margin-left: 40px;
-        margin-top: 10px;
-        justify-content: center;
-        margin-bottom: 10px;
+    .hr1 {
+        margin-left: 60px;
+        width: 49%;
     }
 }
