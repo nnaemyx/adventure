@@ -63,6 +63,13 @@
 }
 
 @media screen and (max-width: 640px) {
+    .events {
+        max-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
     .flex {
         flex-wrap: wrap;
         justify-content: center;
@@ -89,7 +96,7 @@
         width: 100%;
     }
 
-    .btn, .btn-event {
+    .btn-event {
         padding: 14px 12px;
         font-size: .5rem;
         margin-left: 29px;
@@ -98,14 +105,14 @@
     .right {
         margin-top: -100px;
         padding: 1rem 2rem;
-        margin-left: -65px;
-
+        margin-left: -44px;
+        justify-content: center;
     }
 
     .left {
         margin-top: -30px;
         padding: 1rem 2rem;
-        margin-left: -57px;
+        margin-left: -38px;
     }
 }
 
