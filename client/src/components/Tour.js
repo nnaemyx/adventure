@@ -12,24 +12,20 @@ const Tour = () => {
     <div className='tour'>
         <div className='text'>
             <h1>UPCOMING TOURS &<br/> DESTINATION</h1>
-            <p>Fuerat aestu carentem habentia spectent tonitrua <br/>mutastis locavit liberioris. 
-                Sinistra possedit litora ut <br/>nabataeaque. Setucant coepyterunt perveniunt <br/>animal! 
+            <p>Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris. 
+                Sinistra possedit litora ut nabataeaque. Setucant coepyterunt perveniunt animal! 
                 Concordi aurea 
-                nabataeaque seductaque <br/>constaque cepit sublime flexi nullus
+                nabataeaque seductaque constaque cepit sublime flexi nullus
             </p>
             <Link to='/projects' className='btn btn-tour'>
                 Learn More
             </Link>
         </div>
         <div className='images'>
-            <div className='tour-left'>
                 <img src={Image1} alt='image1' className='tour-image' />
                 <img src={Snow1}  alt='snow1'className='tour-image' />
-            </div>
-            <div className='tour-right'>
                 <img src={Mountain}  alt='mountain'className='tour-image' />
                 <img src={Snow}  alt='snow'className='tour-image' />
-            </div>
         </div>
     </div>
   )
