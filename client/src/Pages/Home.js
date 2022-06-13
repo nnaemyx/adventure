@@ -1,6 +1,7 @@
 import React from 'react'
 import Events from '../components/Events'
 import Explore from '../components/Explore'
+import Footer from '../components/Footer'
 import Hero2 from '../components/Hero2'
 import Heroimage from '../components/Heroimage'
 import Navbar from '../components/Navbar'
@@ -15,6 +16,7 @@ const Home = () => {
       <Events/>
       <Explore/>
       <Tour/>
+      <Footer/>
     </div>
   )
 }

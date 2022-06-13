@@ -1,0 +1,15 @@
+.footer {
+    background-color: black;
+    height: 30vh;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-top: 90px;
+}
+
+.footer p {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: .9rem;
+    padding: 0rem 1.3rem;
+}
